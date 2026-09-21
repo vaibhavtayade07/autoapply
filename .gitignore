@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn-lock.yaml
+package-lock.lock
+
+# Build output
+dist/
+*.tgz
+
+# Environment variables
+.env
+
+# Chrome Extension specific
+.service-worker-loader.js
+*.js.map
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
